@@ -1,0 +1,60 @@
+.image-carousel-section {
+
+}
+
+.image-carousel-section .carousel-section {
+    
+}
+
+.image-carousel-section .carousel-section .slick-slider {
+    
+}
+
+.image-carousel-section .carousel-section .slick-slider button {
+    display: none!important;
+}
+
+.slick-slide img {
+    display: block;
+    max-width: 100vw;
+}
+
+.image-carousel-section .carousel-section .slick-slider .slick-dots {
+    display: none!important;
+}
+
+@media (max-width:1600px) {
+    .slick-slide img {
+        display: block;
+        width: 100vw;
+    }
+}
+
+@media (max-width:1700px) {
+    .slick-slide img {
+        display: block;
+        width: 100vw;
+    }
+}
+
+@media (max-width:1800px) {
+    .slick-slide img {
+        display: block;
+        width: 100vw;
+    }
+}
+
+@media (max-width:1900px) {
+    .slick-slide img {
+        display: block;
+        width: 100vw;
+    }
+}
+
+
+@media (max-width:2000px) {
+    .slick-slide img {
+        display: block;
+        width: 100vw;
+    }
+}

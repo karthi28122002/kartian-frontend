@@ -1,0 +1,10 @@
+.Your-Product-Section {
+    margin-left: 260px;
+}
+
+.heading-button {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}

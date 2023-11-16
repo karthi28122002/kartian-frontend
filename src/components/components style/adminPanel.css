@@ -1,0 +1,66 @@
+.side-nav-bar .nav-inside {
+    width: 250px;
+    background: #313a46;
+    height: 100vh;
+    position: fixed;
+    display: inline-block;
+}
+
+.side-nav-bar .nav-inside .title {
+    display: flex;
+    justify-content: center;
+}
+
+.side-nav-bar .nav-inside .title h3 {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-style: inherit;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0px;
+    color: #798392;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(107, 105, 105);
+}
+
+.side-nav-bar .nav-inside .nav-content {
+    margin-top: 50px;
+}
+
+.side-nav-bar .nav-inside .nav-content .nav-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.side-nav-bar .nav-inside .nav-content .nav-list .list-items {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-out;
+}
+
+.side-nav-bar .nav-inside .nav-content .nav-list .list-items a {
+    text-decoration: none;
+    color: #798392;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 20px;
+    transition: .3s ease-out;
+}
+
+.side-nav-bar .nav-inside .nav-content .nav-list .list-items:hover a {
+    color: #313a46;
+    transition: .3s ease-in;
+}
+
+.side-nav-bar .nav-inside .nav-content .nav-list .list-items:hover {
+    background: #798392;
+    transition: .3s ease-in;
+}
